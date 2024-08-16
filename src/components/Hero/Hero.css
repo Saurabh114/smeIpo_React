@@ -1,0 +1,21 @@
+.img_hero img {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+  mix-blend-mode: multiply;
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+
+.heroSection {
+  background-image: linear-gradient(to left, #e1f0fa, #fff);
+    color: #222;
+    backdrop-filter: blur(10px);
+}
