@@ -39,15 +39,18 @@ body {
 /* Handle */
 
 ::-webkit-scrollbar-thumb {
-  background: rgb(118, 137, 214);
-  background: linear-gradient(0deg, rgba(118, 137, 214, 0.6168592436974789) 0%, rgba(118, 137, 214, 0.8213410364145658) 37%, rgba(118, 137, 214, 1) 100%);
+  background: rgb(52, 152, 219);
+  background: linear-gradient(180deg, rgba(52, 152, 219, 1) 0%, rgba(52, 152, 219, 0.6532738095238095) 50%, rgba(52, 152, 219, 0.3843662464985994) 100%);
+  border-radius: 10px;
+  cursor: pointer;
   transition: 0.5s;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(118, 137, 214);
-  background: linear-gradient(180deg, rgba(118, 137, 214, 0.6168592436974789) 0%, rgba(118, 137, 214, 0.8213410364145658) 37%, rgba(118, 137, 214, 1) 100%);
+  background: rgb(52, 152, 219);
+  background: linear-gradient(0deg, rgba(52, 152, 219, 1) 0%, rgba(52, 152, 219, 0.6532738095238095) 50%, rgba(52, 152, 219, 0.3843662464985994) 100%);
+  border-radius: 10px;
   transition: 0.5s;
 }
 

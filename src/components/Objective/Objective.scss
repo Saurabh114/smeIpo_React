@@ -1,0 +1,17 @@
+.objectiveSection {
+    padding: 40px 0;
+    position: relative;
+    background: url(../../assets/22454.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.objectiveSection::before {
+    background: rgb(0 0 0 / 64%);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    content: "";
+}

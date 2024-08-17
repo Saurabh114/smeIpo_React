@@ -10,15 +10,25 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
     "@headlessui/react": "^2.1.2",
     "@heroicons/react": "^2.1.5",
+    "@mui/material": "^5.16.7",
+    "@mui/x-data-grid": "^7.13.0",
     "clsx": "^2.1.1",
     "framer-motion": "^11.3.28",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
+    "iconsax-react": "^0.0.8",
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0",
     "react-router-dom": "^6.26.0",
     "scss": "^0.2.4",
+    "simplex-noise": "^4.0.3",
     "tailwind-merge": "^2.5.2"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.8.0",

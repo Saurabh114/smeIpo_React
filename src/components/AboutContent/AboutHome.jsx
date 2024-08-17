@@ -4,7 +4,7 @@ import SectionHeading from "./../SectionHeading/SectionHeading";
 
 const AboutHome = () => {
   return (
-    <div className="my-4 mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+    <div className="my-10 mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
 
       <SectionHeading heading={"About Us"} />
 
