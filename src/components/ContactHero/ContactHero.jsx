@@ -159,7 +159,6 @@ const ContactHero = () => {
                   </div>
                 </div>
 
-                {/* <ReCAPTCHA sitekey="6Ld8fCoqAAAAADlGk9pYPrVWAGQhgK-y8F-uRd8w" onChange={onChange} /> */}
 
                 <div className="">
                   <HoverBorderGradient
