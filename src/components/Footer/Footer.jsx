@@ -16,7 +16,8 @@ const Footer = () => {
       <div className="footerBox pt-5">
         <div className=" my-14 mx-auto max-w-6xl px-2 sm:px-6 lg:px-8 relative z-10">
           <div className="grid sm:grid-cols-3 gap-4 ">
-            <div>
+            
+            <div className="sm:order-1 order-2" >
               <h3 className="text-xl font-semibold">Quick Links:</h3>
               <div className="links">
                 <h4 className="text-l font-semibold flex mt-2 me-1">
@@ -54,12 +55,14 @@ const Footer = () => {
                 </h4>
               </div>
             </div>
-            <div className="text-center items-center content-center">
+            
+            <div className="text-center items-center content-center sm:order-2 order-1">
               <div className="img_logo">
-                <img src={footerLogo} alt="Footer Logo" className="w-52 " />
+                <img src={footerLogo} alt="Footer Logo" className="w-52 mx-auto" />
               </div>
             </div>
-            <div>
+            
+            <div className="sm:order-3 order-3" >
               <h3 className="text-xl font-semibold">Reach Us:</h3>
 
               <div className="contactDetails mt-2 flex content-center items-center">
@@ -127,7 +130,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="copyright bg-slate-700 text-center py-4 w-full">
-          <h2 className="text-l text-white font-semibold">
+          <h2 className=" w-11/12 text-l text-white font-semibold">
             Copyright © 2024. All Rights Reserved | Designed & Developed by HSPM
             Solutions LLP
           </h2>

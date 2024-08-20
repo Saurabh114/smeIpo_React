@@ -19,12 +19,12 @@ import "./Objective.scss";
 const Objective = () => {
   return (
     <>
-      <div className="h-[100vh] w-full objectiveSection content-center items-center">
+      <div className="sm:h-[100vh] w-full objectiveSection content-center items-center">
         <SectionHeading style={"text-white"} heading={"Objectives Of SME-IPO"} />
 
         <div className="box my-4 mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 relative z-10">
-          <div className="grid sm:grid-cols-3 gap-4">
-            <div className="img_hero">
+          <div className="grid sm:grid-cols-3 grid-cols-1 gap-4">
+            <div className="img_hero content-center text-center items-center">
               <img src={Image} className="img" alt="Objective Img" />
             </div>
 

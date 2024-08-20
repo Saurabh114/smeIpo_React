@@ -1,4 +1,4 @@
-"use client";
+// "use client";
 
 import React from "react";
 
@@ -11,6 +11,7 @@ import "./Hero.css";
 
 import HeroImg from "./../../assets/hero_bg.png";
 import BgImg from "./../../assets/hero-img.png";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   const words = [
@@ -69,7 +70,7 @@ const Hero = () => {
                 as="button"
                 className="dark:bg-black bg-white text-black dark:text-white flex items-center space-x-2"
               >
-                Read More
+                <Link to="/ipo">Read More</Link>
               </HoverBorderGradient>
             </div>
           </div>

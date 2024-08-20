@@ -13,10 +13,10 @@ import { Outlet, NavLink, Link } from "react-router-dom";
 import Logo from "./../../assets/smeipo.png";
 
 const navigation = [
-  { name: "Home", to: "/", current: true },
-  { name: "IPO", to: "/ipo", current: false },
-  { name: "Services", to: "/service", current: false },
-  { name: "Contact", to: "/contact", current: false },
+  { name: "Home", to: "/"},
+  { name: "IPO", to: "/ipo"},
+  { name: "Services", to: "/service"},
+  { name: "Contact", to: "/contact"},
 ];
 
 function classNames(...classes) {
@@ -47,7 +47,6 @@ const Navbar = () => {
             <div className="flex flex-1 items-center justify-between sm:items-stretch sm:justify-between">
               <div className="flex flex-shrink-0 items-center">
                 <Link to="/">
-                  {" "}
                   <img alt="SME IPO Logo" src={Logo} className="h-8 w-auto" />
                 </Link>
               </div>
@@ -75,20 +74,18 @@ const Navbar = () => {
         <DisclosurePanel className="sm:hidden">
           <div className="space-y-1 px-2 pb-3 pt-2">
             {navigation.map((item) => (
-              <DisclosureButton
-                key={item.name}
-                as="a"
-                href={item.href}
-                aria-current={item.current ? "page" : undefined}
-                className={classNames(
-                  item.current
-                    ? "bg-gray-900 text-white"
-                    : "text-black hover:bg-gray-700 hover:text-white",
-                  "block rounded-md px-3 py-2 text-base font-medium w-fit"
-                )}
+              <NavLink
+              key={item.name}
+              to={item.to}
+              className={({ isActive }) =>
+                ` ${
+                  isActive ? "bg-gray-900 text-white"
+                    : "text-black hover:bg-gray-700 hover:text-white"}
+                  block rounded-md px-3 py-2 text-base font-medium w-fit`}
+               
               >
                 {item.name}
-              </DisclosureButton>
+              </NavLink>
             ))}
           </div>
         </DisclosurePanel>

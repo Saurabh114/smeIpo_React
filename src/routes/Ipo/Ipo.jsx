@@ -1,8 +1,19 @@
 import React from 'react'
+import IpoHero from "./../../components/IpoHero/IpoHero";
+import BenefitsOfIPO from "./../../components/BenefitsOfIPO/BenefitsOfIPO";
+import StepWiseProcess from "./../../components/StepWiseProcess/StepWiseProcess";
+import Guidlines from "./../../components/GuidLines/Guidlines";
+
 
 const IPO = () => {
+
   return (
-    <div>IPO</div>
+    <>
+     <IpoHero />
+     <BenefitsOfIPO />
+     <StepWiseProcess />
+     <Guidlines />
+    </>
   )
 }
 

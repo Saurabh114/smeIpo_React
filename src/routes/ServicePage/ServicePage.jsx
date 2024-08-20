@@ -1,8 +1,17 @@
 import React from 'react'
+import ServiceHero from "./../../components/ServiceHero/ServiceHero";
+import StockMarketingListing from "./../../components/StockMarketListing/StockMarketingListing";
+import ListingOnNSE from "./../../components/ListingOnNSE/ListingOnNSE";
+import ListingOnBSE from "./../../components/ListingOnBSE/ListingOnBSE";
 
 const Services = () => {
   return (
-    <div>Services</div>
+    <>
+      <ServiceHero />
+      <StockMarketingListing />
+      <ListingOnNSE />
+      <ListingOnBSE />
+    </>
   )
 }
 
