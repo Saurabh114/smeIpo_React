@@ -1,0 +1,28 @@
+.contactUsDetails .sectionHeading .one h1{
+    text-align: start;
+    font-size: 1.5rem;
+}
+
+.contactUsDetails .sectionHeading .one h1:after {
+    width: 100px;
+    height: 1px;
+    display: block;
+    content: "";
+    position: relative;
+    margin-top: 20px;
+    left: 0;
+    background-color: rgb(118, 137, 214);
+    margin-left: 5px;
+}
+
+.contactUsDetails .sectionHeading .one h1:before {
+    width: 28px;
+    height: 5px;
+    display: block;
+    content: "";
+    position: absolute;
+    bottom: 3px;
+    left: 4%;
+    margin-left: -19px;
+    background-color: rgb(118, 137, 214);
+}

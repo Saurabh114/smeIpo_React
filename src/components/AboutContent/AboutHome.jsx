@@ -1,11 +1,11 @@
 import React from "react";
 import AboutUS from "../../assets/aboutUS.png";
 import SectionHeading from "./../SectionHeading/SectionHeading";
+import { DirectRight } from "iconsax-react"
 
 const AboutHome = () => {
   return (
     <div className="my-10 mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-
       <SectionHeading heading={"About Us"} />
 
       <div className="grid sm:grid-cols-2 gap-4 ">
@@ -58,6 +58,14 @@ const AboutHome = () => {
           any permission from SEBI. Further after certain period and criteria,
           such Companies are allowed to migrate to Main Boards of BSE & NSE.
         </h4>
+      </div>
+
+      <div className="content mt-3">
+        <ul>
+          <li className="flex mt-1" > <span className="me-2 mt-1" ><DirectRight size="20" color="#3498db" variant="TwoTone"/></span> <span> Successfully registered <b>900+ SME IPOs by 2023</b>, empowering small and medium enterprises to thrive and grow in the competitive market</span></li>
+          <li className="flex mt-1" > <span className="me-2 mt-1" ><DirectRight size="20" color="#3498db" variant="TwoTone"/></span> <span> Successfully raised <b>₹14,321 crores</b> through SME IPOs</span></li>
+          <li className="flex mt-1" > <span className="me-2 mt-1" ><DirectRight size="20" color="#3498db" variant="TwoTone"/></span> <span> In 2024, approximately <b>₹6,251</b> crores were raised through <b>175 SME IPOs</b>, highlighting the dynamic growth and investment potential in the small and medium enterprises sector.</span></li>
+        </ul>
       </div>
     </div>
   );
